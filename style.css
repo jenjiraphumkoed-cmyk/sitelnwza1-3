@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap');
+
+body {
+    background-color: #fffaf0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #555555;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffd1dc;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 5px dashed #ffb6c1;
+}
+
+header h1 {
+    color: #ff69b4;
+    font-size: 2.2rem;
+    margin: 0 0 15px 0;
+    text-shadow: 2px 2px 0px #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    background-color: #fff;
+    color: #ff69b4;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #ffb6c1;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ff69b4;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.member-grid, .portfolio-container {
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: #ffffff;
+    border: 3px solid #b0e0e6;
+    border-radius: 25px;
+    padding: 20px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 0 8px 0px #b0e0e6;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    border-radius: 50%;
+    border: 4px solid #ffdab9;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card h2 a {
+    color: #4682b4;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.card h2 a:hover {
+    color: #ff1493;
+    text-decoration: underline;
+}
+
+.info-box {
+    background: #e6e6fa;
+    border: 3px solid #d8bfd8;
+    border-radius: 20px;
+    padding: 25px;
+    width: 100%;
+    box-shadow: 0 6px 0px #d8bfd8;
+}
+
+.info-box ul {
+    list-style-type: '🌸 ';
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.school-img {
+    border-radius: 15px;
+    border: 3px dashed #dda0dd;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.school-img:hover {
+    transform: scale(1.03);
+}
+
+footer {
+    text-align: center;
+    background-color: #e0ffff;
+    padding: 20px;
+    margin-top: 150px;
+    border-top: 5px dashed #afeeee;
+    color: #5f9ea0;
+    font-weight: bold;
+}
+
+footer a {
+    color: #4169e1;
+    text-decoration: none;
+}
+.card img {
+  width: 100%;
+  height: 150px; /* หรือปรับตามต้องการ */
+  object-fit: cover;
+  border-radius: 4px; /* เผื่ออยากให้มุมรูปมนสวยงาม */
+}
